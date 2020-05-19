@@ -4,7 +4,7 @@ src: url('Pangolin-Regular.ttf');
 }
 
 body{
-    background-color: gray;
+    background-color: black;
     color: white;
     font-family: Pangolin;
 }
