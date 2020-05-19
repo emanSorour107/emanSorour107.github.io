@@ -43,3 +43,8 @@ div.movieDiv {
 ol.movieOl{
     list-style-type: none;
 }
+
+img.myImage{
+    width:200px; 
+    border-radius: 50%
+}
