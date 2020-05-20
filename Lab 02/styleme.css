@@ -1,0 +1,50 @@
+@font-face{
+font-family: Pangolin;
+src: url('Pangolin-Regular.ttf');
+}
+
+body{
+    background-color: grey;
+    color: white;
+    font-family: Pangolin;
+}
+
+h1, h2{
+color: cornflowerblue;
+}
+
+span.spanMe {
+color: tomato;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+span.spanMovie{
+color: yellow;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+div.movieDiv {
+    font-family: fantasy;
+}
+
+ol.movieOl{
+    list-style-type: none;
+}
+
+img.myImage{
+    width:200px; 
+    border-radius: 50%
+}
