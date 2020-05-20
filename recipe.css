@@ -6,21 +6,23 @@ div.Maintitle{
 
 div.titles{
     background-color: #f0f0f0;
-    font-family: Lucida sans-serif, Helvetica, Arial,  sans-serif;
+    font-family: "Lucida sans-serif", Helvetica, Arial,  sans-serif;
 }
 
 h2.MainHeader {
     color: #A4A400;
-    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: bold;
     text-decoration: underline;
+    letter-spacing:  0.25em;
 }
 
 h2.headers{
     color: #A4A400;
     font-size: 18px;
     text-decoration: underline;
+    letter-spacing:  0.25em;
 }
 
 body{
