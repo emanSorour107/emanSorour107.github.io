@@ -8,59 +8,65 @@
 </head>
 
 <body>
-    <fieldset>
-        <legend> Personal info: </legend>
-        <div> <label> First Name:<input name="first name" type="text" placeholder=" first name" required /> </label>
-        </div>
-        <div> <label> Last Name:<input name="last name" type="text" placeholder=" last name" required /> </label> </div>
-        <div> <label> Email:<input name="email" type="email" placeholder=" email" required /> </label> </div>
-        <div> <label> Telephone:<input name="phone" type="tel" placeholder=" telephone number" maxlength="8"
-                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" /> </label> </div>
-    </fieldset>
-    <br>
-    <br>
-    <fieldset>
-        <legend> Billing info: </legend>
-        <div> <label> Street: <input name="Street" type="text" placeholder=" Street" required /> </label> </div>
-        <div> <label> City: <input name="City" type="text" placeholder=" City" required /> </label> </div>
-        <div><label> State: <input name="State" type="text" placeholder=" State" required /> </label> </div>
-        <div>
-            <label> Gender: </label>
-            <label>  <input type="radio" name="male" /> Male </label>
-            <label>  <input type="radio" name="female" /> Female </label> </div>
-        <div> <label> Zip Code: <input name="Zip Code" type="text" placeholder="Zip Codes" required /> </label> </div>
+    <form method="post" action="./index.html">
+        <fieldset>
+            <legend> Personal info: </legend>
+            <div> <label> First Name:<input name="first name" type="text" placeholder=" first name" required /> </label>
+            </div>
+            <div> <label> Last Name:<input name="last name" type="text" placeholder=" last name" required /> </label>
+            </div>
+            <div> <label> Email:<input name="email" type="email" placeholder=" email" required /> </label> </div>
+            <div> <label> Telephone:<input name="phone" type="tel" placeholder=" telephone number" maxlength=""
+                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" /> </label> </div>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend> Billing info: </legend>
+            <div> <label> Street: <input name="Street" type="text" placeholder=" Street" required /> </label> </div>
+            <div> <label> City: <input name="City" type="text" placeholder=" City" required /> </label> </div>
+            <div><label> State: <input name="State" type="text" placeholder=" State" required /> </label> </div>
+            <div>
+                <label> Gender: </label>
+                <label> <input type="radio" name="male" /> Male </label>
+                <label> <input type="radio" name="female" /> Female </label> </div>
+            <div> <label> Zip Code: <input name="Zip Code" type="text" placeholder="Zip Codes" required /> </label>
+            </div>
 
-    </fieldset>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend> Shipping info: </legend>
+            <div> <label> Street: <input name="Street" type="text" placeholder="Street" required /> </label> </div>
+            <div> <label> City: <input name="City" type="text" placeholder="City" required /> </label> </div>
+            <div><label> State: <input name="State" type="text" placeholder="State" required /> </label> </div>
+            <div> <label> Zip Code: <input name="Zip Code" type="text" placeholder="Zip Codes" required /> </label>
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend> Payment Info: </legend>
+            <div> <label> Card Number: <input name="card number" type="text" placeholder=" card no." required />
+                </label>
+            </div>
+            <div> <label> Expiration Date: <input name="expiration date" type="date" required /> </label></div>
+
+        </fieldset>
     <br>
-    <br>
-    <fieldset>
-        <legend> Shipping info: </legend>
-        <div> <label> Street: <input name="Street" type="text" placeholder="Street" required /> </label> </div>
-        <div> <label> City: <input name="City" type="text" placeholder="City" required /> </label> </div>
-        <div><label> State: <input name="State" type="text" placeholder="State" required /> </label> </div>
-        <div> <label> Zip Code: <input name="Zip Code" type="text" placeholder="Zip Codes" required /> </label> </div>
-    </fieldset>
-    <br>
-    <br>
-    <fieldset>
-        <legend> Payment Info: </legend>
-        <div> <label> Card Number: <input name="card number" type="text" placeholder=" card no." required /> </label>
-        </div>
-        <div> <label> Expiration Date: <input name="expiration date" type="date" required /> </label></div>
-        
-    </fieldset>
-    <br>
-        <label> 
-        <input type="checkbox" name="acceptence" required /> 
-        Terms will be applied fully and affect to your use of this Website. 
-        By using this Website, you agreed to accept all terms and conditions written in here. 
-        You must not use this Website if you disagree with any of these Website Standard Terms and Conditions. 
-        Minors or people below 18 years old are not allowed to use this Website. 
+    <label>
+        <input type="checkbox" name="acceptence" required />
+        Terms will be applied fully and affect to your use of this Website.
+        By using this Website, you agreed to accept all terms and conditions written in here.
+        You must not use this Website if you disagree with any of these Website Standard Terms and Conditions.
+        Minors or people below 18 years old are not allowed to use this Website.
     </label>
     <br>
     <br>
 
     <div class="button"> <input type="submit" /> </div>
+</form>
 
     <div>
         <a href="https://validator.w3.org/check/referer" target="_blank">
