@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Caveat-Regular;
+    src: url('Caveat-Regular.ttf');
+}
+
+div.header {
+text-align: center;
+text-shadow: 3px 3px  #999999;
+font-family: Tahoma, Verdana,  sans-serif ;
+}
+
+
+body {
+    background: url(images/background.png);
+}
+
+div.layout {
+border: 4px solid grey;
+width: 800px;
+margin: auto;
+display: grid;
+grid-template-columns: 550px 250px;
+position: relative;
+border-radius: 5px;
+}
+
+div.leftside {
+    height: auto;
+}
+
+
+div.imgheader {
+    background-image: url("rbg.png");
+    background-repeat: repeat;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+
+}
+
+dl.moviedetails {
+   
+    font-size: 8pt;
+    padding: 5px;
+    width: 250px;
+    font-family: Arial, sans-serif;
+}
+
+dt{
+    font-weight: bold;
+    font-size: 10pt;
+    margin: 3px;
+}
+
+div.review {
+    width: 235px;
+    font-size: 16px;
+  
+}
+div.reviewwords{
+    border: 1px thick grey;
+    border-radius: 5%;
+    background: #e8dc9b;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+div.footer {
+    background-color: #a2b964;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 550px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+div.rightside{
+    background-color: #a2b964;
+    position: relative;
+}
+.parentleft::after{
+    clear: both;
+}
+div.left {
+    float: left;
+    margin: 3.5%;
+}
+div.parentleft{
+    font-family: Caveat-Regular;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+dd{
+    margin-bottom: 10pt;
+}
+
+div.validators {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
