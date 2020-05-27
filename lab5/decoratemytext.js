@@ -2,9 +2,10 @@
 function changestyle() {
     // alert("Hello, world!");
     setInterval(function(){
-    // const fontSize = document.getElementById("textid").style.fontSize = "24pt";
-    document.getElementById("textid").style.fontSize = "24pt";
-    // const newFontSize = parseInt(fontSize) + 2 + "pt";
+        var textbox =   document.getElementById("textid");
+    // var fontSize = document.getElementById("textid").style.fontSize = "24pt";
+      textbox.style.fontSize = "24pt";
+    // var newFontSize = parseInt(fontSize) + 2 + "pt";
     // document.getElementById("textid").style.fontSize = newFontSize;
 
 }, 500);
