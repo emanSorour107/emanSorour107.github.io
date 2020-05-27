@@ -5,6 +5,7 @@ function hiAlert() {
 }
 
 function changestyle() {
+    "use strict";
     setInterval(function () {
         var textbox = document.getElementById("textid");
         var fontSize = textbox.style.fontSize = "24pt";
