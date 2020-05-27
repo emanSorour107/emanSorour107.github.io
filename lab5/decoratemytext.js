@@ -1,14 +1,14 @@
 
 function changestyle() {
     // alert("Hello, world!");
-    setInterval(function(){
-        var textbox =   document.getElementById("textid");
-    // var fontSize = document.getElementById("textid").style.fontSize = "24pt";
-      textbox.style.fontSize = "24pt";
-    // var newFontSize = parseInt(fontSize) + 2 + "pt";
-    // document.getElementById("textid").style.fontSize = newFontSize;
+    setInterval(function () {
+        var textbox = document.getElementById("textid");
+        var fontSize = textbox.style.fontSize = "24pt";
 
-}, 500);
+        var newFontSize = parseInt(fontSize) + 2 + "pt";
+        textbox.style.fontSize = newFontSize;
+
+    }, 500);
 }
 
 
