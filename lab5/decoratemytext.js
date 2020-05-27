@@ -1,6 +1,10 @@
 
+function hiAlert() {
+    alert("Hello, world!");
+
+}
+
 function changestyle() {
-    // alert("Hello, world!");
     setInterval(function () {
         var textbox = document.getElementById("textid");
         var fontSize = textbox.style.fontSize = "24pt";
