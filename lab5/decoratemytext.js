@@ -1,7 +1,7 @@
 
 function changestyle() {
     // alert("Hello, world!");
-    window.setInterval(function(){
+    setInterval(function(){
     const fontSize = document.getElementById("textid").style.fontSize = "24pt";
     const newFontSize = parseInt(fontSize) + 2 + "pt";
     document.getElementById("textid").style.fontSize = newFontSize;
