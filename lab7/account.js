@@ -1,24 +1,26 @@
-
-let oneAccount ={
-accountName : '',
-depositAmount : '',
-}
-
 let accountInfoList =[];
 
+let oneAccount = (name, balance) => {
+return {name, balance};
+};
+
+
 function addAccount(){
-    let account = document.getElementById("accountName").value;
-    let deposite = document.getElementById("deposit").value;
-    let result = document.getElementById("textarea");
-    accountInfoList.push(oneAccount.accountName=account , oneAccount.depositAmount=deposite);
-    // result.innerHTML = accountInfoList ;
+    let account = document.getElementById("accountName");
+    let deposite = document.getElementById("deposit");
+    accountInfoList.push(oneAccount(account.value, deposite.value));
+    account.value ='';
+    deposite.value ='';
     displayResult();
+    
 }
 
-function displayResult(){
+var displayResult = function(){
+    let result = document.getElementById("textarea");
+    let totalResult ='';
 for (let i = 0; i < accountInfoList.length; i++) {
-accountInfoList[i] = (function(n) {
-    return function() { return n}
-} )(i);
+    totalResult += `Account name: ${accountInfoList[i].name}    Balance: ${accountInfoList[i].balance} \n`;
 };
+result.innerHTML = totalResult;
 }
+
