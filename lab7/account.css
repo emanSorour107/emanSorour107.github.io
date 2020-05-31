@@ -1,0 +1,13 @@
+
+div {
+    margin: 10px;
+}
+
+div.textdiv {
+    /* margin: 25px; */
+}
+
+textarea {
+    width: 60%;
+    height: 200px;
+}
